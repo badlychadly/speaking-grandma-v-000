@@ -1,6 +1,6 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma(string)
-  if string == "WHAT DID YOU EAT TODAY?" || "WHAT?"
+  if string == "WHAT DID YOU EAT TODAY?" ||string == "WHAT?"
     return "NO, NOT SINCE 1938!"
   elsif string == string.upcase
     "I LOVE YOU TOO PUMPKIN!"
